@@ -1,7 +1,7 @@
 # BOYZ-Artificial-Neural-Networks-ANNs
 Bilgisayar Oyunlarda Yapay Zeka Dersinin Ödev-6 Artificial Neural Networks (ANNs)
 
-##ANNs
+## ANNs
 
 • Perceptron’un yeteneklerini genişletmek için çok sayıda perceptron’u bir arada kullanabiliriz.
 
