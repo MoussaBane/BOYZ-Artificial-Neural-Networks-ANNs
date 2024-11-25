@@ -24,4 +24,16 @@ Bilgisayar Oyunlarda Yapay Zeka Dersinin Ödev-6 Artificial Neural Networks (ANN
 • 2D veya 3D bir proje oluşturarak sonuçları console ekranına yazdıracağız. Dört C# script’i oluşturalım: Neuron, Layer, Brain, ANN.
 
 • Boş bir oyun nesnesi oluşturalım: Brain ve Brain_sc script’ini bu nesneye ekleyelim.
+
+## ANN - Kodun Çalıştırılması
+
+• Oyunu başlatın. Eğitim tamamlanacak ve sum of squared error yazdırılacak. Bu değerin 0.001 gibi düşük bir değer olmasını bekliyoruz. Binary step fonksiyon ile test ederek farkı görebiliriz.
+
+• Binary step fonksiyonu kullanmadığımız için sonuçlar tam 0 veya tam 1 olmayacak ancak elde ettiğimiz sonuçları yuvarlayabiliriz. Sıfır ve bire oldukça yakın sonuçlar bekliyoruz.
+
+• Oyunu durdurun ve eğitim oranını 0.1’e düşürerek tekrar çalıştırın. Sonuçları inceleyin. Eğitimin tamamlanmadığını sum of squared error ve XOR fonksiyonu sonuçlarından görebiliriz.
+
+• Alpha değeri büyük olduğunda bazen sonuçlar saklama alanı sınırını aşabilir ve NaN çıktısı ile karşılaşabiliriz. Bu durumda (floating point ya da double max değeri aşılmıştır ve) alpha değeri azaltılmalıdır.
+ 
+• ŞimdiXNORiçineğitimsetini değiştirelim ve test edelim.
  
