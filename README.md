@@ -13,4 +13,15 @@ Bilgisayar Oyunlarda Yapay Zeka Dersinin Ödev-6 Artificial Neural Networks (ANN
 
 • Ortaya çıkan ağın tamamında tek perceptron’da olduğu gibi girdiler alınır, ağırlıklarla çarpılır, bias eklenir ve sonuç üzerinde aktivasyon fonksiyonu uygulanır. Elde edilen sonuçlar sonraki katmandaki  perceptron’lara aktarılır.
 
- • Buişlemçıktı katmanından çıktı elde edilinceye kadar devam eder. Elde edilen çıktı ile eğitim setindeki beklenen çıktı karşılaştırılır ve hata hesaplanır
+ • Buişlemçıktı katmanından çıktı elde edilinceye kadar devam eder. Elde edilen çıktı ile eğitim setindeki beklenen çıktı karşılaştırılır ve hata hesaplanır.
+
+## ANNs Kodlama
+
+• Bu aşamada, bir yapay sinir ağını sıfırdan kodlayarak XOR fonksiyonunun hesaplanması için eğiteceğiz.
+
+• XOR fonksiyonu tek perceptron kullanıldığında epoch sayısını arttırmamıza rağmen eğitilememişti.
+
+• 2D veya 3D bir proje oluşturarak sonuçları console ekranına yazdıracağız. Dört C# script’i oluşturalım: Neuron, Layer, Brain, ANN.
+
+• Boş bir oyun nesnesi oluşturalım: Brain ve Brain_sc script’ini bu nesneye ekleyelim.
+ 
